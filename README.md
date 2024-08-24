@@ -12,8 +12,8 @@ The BlogPosts project is a simple blog post application with a backend built usi
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo.git
-   cd your-repo/backend
+   git clone https://github.com/mahaboob-basha-a/blogposts.git
+   cd backend
    ```
 2. **Install dependencies:**
     ```bash
@@ -50,7 +50,7 @@ All routes include error handling. If an error occurs during a request, the serv
 ### Project Setup
 1. #### Clone the repository:
     ```bash
-    git clone
+    git clone https://github.com/mahaboob-basha-a/blogposts.git
     cd frontend
     ```
 2. #### Install dependencies:
