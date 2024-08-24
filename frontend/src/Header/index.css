@@ -1,0 +1,32 @@
+.header{
+    width: 100vw;
+    height: 50px;
+    background-color: #7a39fc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    h1{
+        font-size: 1.4rem;
+        border: 1px solid #00000030;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        align-content: center;
+        background-color: #fff;
+        color: #000;
+    }
+    button{
+        height: 32px;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,14 @@
+.App{
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 1.9rem;
+}
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 1.5rem;
+  }
+}

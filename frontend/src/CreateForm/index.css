@@ -1,0 +1,59 @@
+.create-form{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000020;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form-card{
+        height: 350px;
+        width: 340px;
+        background-color: #fff;
+        position: relative;
+        border-radius: 6px;
+        form{
+            height: 100%;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px;
+            input{
+                height: 60px;
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #00000040;
+                outline: none;
+                font-size: 16px;
+                padding-left:10px;
+                padding-top: 30px;
+            } 
+            button{
+                margin-top: 30px;
+                width: 90px;
+                height: 34px;
+                border: 0;
+                background-color: #9124f8;
+                color: #fff;
+                border-radius: 6px;
+                cursor: pointer;
+                padding: 0 6px;
+            }
+        }
+        .close-button{
+            position: absolute;
+            top:0;
+            right: 0;
+            color: #000;
+            font-size: 20px;
+            background-color: transparent;
+            border: 1px solid;
+            height: 22px;
+            width: 22px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+}
